@@ -2,4 +2,4 @@
 learning for automation testing
 
 Hello, I'm Fachri Firmansyah Hutagalung
-Qualtiy Assurance Engineer
+As a Qualtiy Assurance Engineer
