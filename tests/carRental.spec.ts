@@ -15,8 +15,9 @@ test.describe('Test Case Collection for Car Rental Transaction', async () => {
     test('customer want to search car rental hourly 4 hours package with driver', async ({ page }) => {
         await test.step('Customer input rental detail', async () => {
             await feature.selectCity('Jakarta');
-
-            await feature.selectDate(7);
+            await feature.selectDateOffset(2);
+            await feature.selectPickupTime('07:30');
+            await feature.selectPackages('4');
         })
     });
 })
