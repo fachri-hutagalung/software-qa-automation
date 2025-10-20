@@ -11,7 +11,7 @@ export class Suite{
 
     async testSetup(){
         await this.page.goto('/');
-        await this.buttonSkipGuidance.waitFor( {state: "visible"});
+        // await this.buttonSkipGuidance.waitFor( {state: "visible"});
         if ( await this.buttonSkipGuidance.isVisible() ){
             await this.buttonSkipGuidance.click();
         }

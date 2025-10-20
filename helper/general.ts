@@ -29,3 +29,7 @@ export function getFullDate(dateOffset: number = 0,language: string = "en"){
     
     return fullDate;
 }
+
+export async function markAsFailed(message: string = 'mark as failed'){
+    throw new Error(message);
+}
