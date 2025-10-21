@@ -4,8 +4,10 @@
   "description": "learning for automation testing",
   "main": "index.js",
   "scripts": {
-    "regression": "npx playwright test --headed --workers=1",
-    "report": "npx playwright show-report"
+    "all:car-rental": "npx playwright test tests/carRental/6_carRental.positive --headed --workers=1",
+    "report": "npx playwright show-report",
+    "test:car-rental": "npx playwright test tests/carRental/**",
+    "test:all-positive": "npx playwright test \"tests/.*positive.*\" --headed"
   },
   "keywords": [],
   "author": "",

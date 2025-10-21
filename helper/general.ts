@@ -23,7 +23,7 @@ export function getFullDate(dateOffset: number = 0,language: string = "en"){
     dateOnly = newDate.getDate();
     year = newDate.getFullYear();
 
-    console.log('date : '+dateOnly+" | month : "+month+" | "+" year : "+year);
+    // console.log('date : '+dateOnly+" | month : "+month+" | "+" year : "+year);
 
     var fullDate = [dateOnly,MMMM[month],year]
     
